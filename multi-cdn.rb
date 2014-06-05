@@ -39,6 +39,7 @@ class << MultiCDN = Object.new
     end
     
     @response.status = 404
+    @response["Content-Type"] = "text/plain"
     @response.write "Not Found"
   end
 end
