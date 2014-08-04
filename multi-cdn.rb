@@ -9,6 +9,7 @@ class << MultiCDN = Object.new
     http://fonts.googleapis.com/css?family=
     http://ajax.googleapis.com/ajax/libs/
     http://netdna.bootstrapcdn.com/
+    http://vjs.zencdn.net/
   )
   
   def call(env)
